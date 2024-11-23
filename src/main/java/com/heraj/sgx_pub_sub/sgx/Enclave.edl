@@ -1,0 +1,6 @@
+enclave {
+    trusted {
+        public void encrypt(const char* plaintext, char* ciphertext);
+        public void decrypt(const char* ciphertext, char* plaintext);
+    };
+};
